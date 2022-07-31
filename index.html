@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/eb3b2a5a3d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="app">
+
+  </div>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+
+
+<script>
+  // Import the functions you need from the SDKs you need
+  // import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
+
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyD0vgwUq1HMCi_1Rwr_tKq9abchE_Mifl4",
+    authDomain: "chat-web-js.firebaseapp.com",
+    projectId: "chat-web-js",
+    storageBucket: "chat-web-js.appspot.com",
+    messagingSenderId: "915154425734",
+    appId: "1:915154425734:web:e84a20fdc86d46c628fe07"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  const db = firebase.firestore()
+</script>
+
+<script src="./index.js" type="module">
+
+</script>
+
+</html>
